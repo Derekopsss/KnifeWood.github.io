@@ -1,0 +1,408 @@
+body {
+
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	font-size: 100px;
+	font-family: monospace;
+	color: #fff;
+	background: linear-gradient(to left,
+#52c234
+,
+#061700,
+#52c234
+);
+	text-decoration: none;
+	padding: 5px 70px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+}
+
+.btn:hover {
+	background-position: right;
+}
+
+
+
+
+
+
+
+@font-face {
+font-family: "Exo2-Medium";
+src: url("../fonts/Exo2-Medium.ttf");
+}
+@font-face {
+font-family: "Exo2-MediumItalic";
+src: url("../fonts/Exo2-MediumItalic.ttf");
+}
+@font-face {
+font-family: "Exo2-Bold";
+src: url("../fonts/Exo2-Bold.ttf");
+}
+@font-face {
+font-family: "Exo2-BoldItalic";
+src: url("../fonts/Exo2-BoldItalic.ttf");
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("../img/white-needle.png");
+}
+
+=
+
+.logo {
+	width: 200px;
+	float: left;
+	height: 80px;
+}
+.logo a {
+	display: block;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: "Exo2-Bold", sans-serif;
+	font-size: 28px;
+	color:  #b2aeb2;
+	text-decoration: none;
+	cursor: pointer;
+}
+.use {
+	color: orange;
+
+}
+.web {
+	color: Black;
+}
+.logo p {
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	font-family:  "Exo2-Medium", sans-serif;
+	font-size: 13px;
+	color: white;
+}
+.
+.block-top-auth {
+	width: 100px;
+	float: left;
+	margin-left: 40px;
+	height: 80px;
+}
+
+
+
+.logo span
+{font-size: 48px}
+.logo p
+{font-size: 20px}
+body {
+
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	font-size: 20px;
+	font-family: monospace;
+	color: #fff;
+	background: #198616;
+	text-decoration: none;
+	padding: 30px 70px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+}
+
+.btn:hover {
+	background-position: right;
+}
+body  {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+.links  {
+  margin: auto;
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+
+
+.center a::before {
+  content: '';
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: orange    ;
+  transition: 0.2s;
+  transform: scaleX(0);
+
+
+}
+.center a:hover:before {
+  transform: scaleX(1);
+}
+
+
+
+
+.aye {
+	font-size: 30px;
+	font-family: monospace;
+	color: #fff;
+	background: linear-gradient(to left, #F2F2F2,#F2F2F2,#F2F2F2);
+	text-decoration: none;
+	padding: 20px 70px;
+	border-radius: 10px;
+	background-size: 200%;
+	transition: .5s;
+	border: 2px solid grey
+
+}
+
+.aye:hover {
+	background-position: right;
+}
+
+
+
+
+
+
+
+
+
+.aye li {color: black;}
+.aye p {color: black}
+
+.menu{
+  display: flex;
+
+}
+
+.menu li{
+  width: 200px;
+  list-style: none;
+  background: #757373;
+  position: relative;
+
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  transition: all .5s;
+
+}
+
+.menu a:hover {
+  background: #646161 ;
+}
+
+.menu ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu ul ul {
+  display: none;
+  top: 0;
+  left: 100%;
+}
+
+.menu {font-size: 20px}
+
+body{
+ background-image: url("../img/ep_naturalwhite.png");
+}
+header{
+ /*margin-top: 200px;*/
+ font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+.dws-menu *{
+ margin: 0;
+ padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;
+}
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+}
+.dws-menu > ul li{
+ position: relative;
+ border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #babbbd;
+}
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+}
+.dws-menu > ul li a{
+ display: block;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+ background: rgb(201,201,201); /* Old browsers */
+ background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
+
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #454547;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+}
+.dws-menu li a:hover{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+ background: rgb(224,225,229); /* Old browsers */
+ background: -moz-linear-gradient(top,  rgba(224,225,229,1) 0%, rgba(69,69,71,1) 2%, rgba(69,69,71,1) 98%, rgba(224,225,229,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 ); /* IE6-9 */
+
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+}
+.dws-menu li > ul li{
+ border: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #e4e4e5;
+}
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.dws-menu li:hover > ul{
+ display: block;
+}
+
+/*==== MEDIA ====*/
+.dws-menu [type="checkbox"],
+.dws-menu label.toggleSubmenu{
+ display: none;
+}
+.dws-menu label.toggleMenu{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+ background: rgb(201,201,201); /* Old browsers */
+ background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
+
+ display: none;
+ padding: 15px 40px;
+ text-transform: uppercase;
+ font-size: 14px;
+ cursor: pointer;
+ position: relative;
+}
+
+.dws-menu label.toggleMenu .fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+}
+@media all and (max-width: 800px){
+ .dws-menu{
+  overflow: hidden;
+ }
+ .dws-menu ul{
+  display: block;
+  max-height: 0;
+  transition: max-height 0.3s;
+ }
+ .dws-menu li>ul li ul{
+  position: absolute;
+  right: auto;
+  top: auto;
+ }
+ .dws-menu label.toggleMenu{
+  display: block;
+ }
+ input.toggleMenu:checked + label.toggleMenu{
+  background: #000;
+  color: #fff;
+ }
+ input.toggleMenu:checked ~ ul,
+ input.toggleSubmenu:checked ~ ul{
+  display: block;
+  position: relative;
+  max-height: 5000px;
+  transition: max-height 2s ease-in;
+ }
+ .dws-menu label.toggleSubmenu{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+ }
+ input.toggleSubmenu:checked ~ a{
+  background: #454547;
+  color: #fff;
+ }
+ .dws-menu label.toggleSubmenu .fa:before{
+  content: "\f0d7";
+  color: #454547;
+ }
+ .dws-menu label.toggleSubmenu .fa{
+  position: absolute;
+  top: 15px;
+  right: 30px;
+ }
+ .dws-menu input.toggleSubmenu:checked ~ label.toggleSubmenu .fa::before{
+  content: "\f0d8";
+  color: #ffffff;
+ }
+.dayn {color:black}
